@@ -5,8 +5,9 @@ This module extracts Wikipedia articles and stored the HTML as a text file.
 The MediaWiki API is used. Requests are made asynchronously, thus throttling 
 should be set to prevent server overloading. Default rate limit is 200req/s.
 
-Extracted articles will be stored by defaule in the 'data' directory, which will
-be created if it doesn't exist.
+A directory named "data" will be created within your current working directory.
+All extracted wiki files will be stored in individual folders within the "data"
+directory.
 """
 
 import asyncio
