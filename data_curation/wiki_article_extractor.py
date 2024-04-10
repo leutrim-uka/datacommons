@@ -41,7 +41,6 @@ parser.add_argument(
 )
 
 
-
 def read_txt(src: str, encoding='utf-8') -> list:
     """
     Reads a text file into a list. Each element is a row.
